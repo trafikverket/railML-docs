@@ -1,0 +1,55 @@
+= Welcome!
+:page-layout: default
+:toc: macro
+:toc-title: Table of Contents
+:toclevels: 2
+
+Welcome to the railML Documentation Hub! This site serves as the central resource for all things related to railML implementations, including general guidelines, best practices, and detailed specifications for specific use cases.
+
+[TIP]
+====
+Browse the different implementations and versions using the menu in the bottom left corner.
+====
+
+== Overview
+
+railML (Railway Markup Language) is a standardized data exchange format designed to facilitate communication and interoperability between different railway systems. This documentation provides comprehensive information on how to implement railML in various contexts.
+
+[NOTE]
+====
+This documentation is intended for developers, system integrators, and other stakeholders involved in the implementation of railML standards.
+====
+
+////
+== General Information
+
+In this section, you will find introductory content and general guidelines that apply across all railML implementations.
+
+* <<general-info/index.adoc#,General Information>>
+* <<general-info/overview.adoc#,railML Overview>>
+* <<general-info/getting-started.adoc#,Getting Started with railML>>
+* <<general-info/best-practices.adoc#,Best Practices>>
+
+== Implementation Specifications
+
+Detailed documentation for specific railML implementations can be found in the following sections:
+
+* <<ertms-interlocking/index.adoc#,ERTMS Interlocking>>
+* [Your other implementations here]
+
+== Additional Resources
+
+Here are some additional resources that may be helpful as you work with railML:
+
+* <<general-info/faq.adoc#,Frequently Asked Questions>>
+* <<general-info/glossary.adoc#,Glossary of Terms>>
+* <<general-info/contact.adoc#,Contact and Support>>
+
+== Contributing
+
+We welcome contributions to improve the railML documentation. If you would like to contribute, please refer to the <<general-info/contributing.adoc#,Contributing Guidelines>>.
+
+== License
+
+The railML documentation is licensed under the MIT License. For more details, see the <<general-info/license.adoc#,License>>.
+////

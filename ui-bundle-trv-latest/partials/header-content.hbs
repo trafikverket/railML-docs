@@ -1,0 +1,17 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{{or site.url siteRootPath}}}" style="width: 46%;">{{site.title}}</a>
+      <div class="banner" style="display: flex;align-content: center;flex-wrap: wrap;">
+        <img src="{{uiRootPath}}/img/TV_logo_Horisontal_neg_RGB.png" alt="Logo" style="max-height: 40px;padding-bottom: 7px;">
+      </div>
+      {{#if env.SITE_SEARCH_PROVIDER}}
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs"{{#if page.home}} autofocus{{/if}}>
+        </div>
+      </div>
+      {{/if}}
+    </div>
+  </nav>
+</header>

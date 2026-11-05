@@ -1,0 +1,19 @@
+site:
+  title: railML Implementation Specifications
+  start_page: ROOT::index.adoc
+content:
+  sources:
+  - url: ./
+    branches: [main]
+  - url: ../railML-implementation-ertms-interlocking/
+    branches: [1.0-rc]
+    start_path: GeneratedDocs
+
+ui:
+  bundle:
+    url: ./ui-bundle-trv-latest
+    snapshot: true
+
+antora:
+  extensions:
+    - '@antora/lunr-extension'
