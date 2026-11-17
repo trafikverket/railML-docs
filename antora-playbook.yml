@@ -5,7 +5,7 @@ content:
   sources:
   - url: ./
     branches: [main]
-  - url: ../railML-implementation-ertms-interlocking/
+  - url: https://github.com/trafikverket/railML-implementation-ertms-interlocking.git
     branches: [1.0-rc]
     start_path: GeneratedDocs
 
