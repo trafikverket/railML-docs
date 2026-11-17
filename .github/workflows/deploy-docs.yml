@@ -30,7 +30,7 @@ jobs:
           node-version: '20'
 
       - name: Install Antora and Extensions
-        run: npm install @antora/cli @antora/site-generator @antora/lunr-extension
+        run: npm install --no-package-lock --registry=https://npmjs.org @antora/cli @antora/site-generator @antora/lunr-extension
 
       - name: Generate Antora Site
         run: npx antora --clean antora-playbook.yml
